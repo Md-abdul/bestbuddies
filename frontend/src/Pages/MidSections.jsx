@@ -793,7 +793,6 @@ export const MidSections = () => {
         </Box>
       </Box>
 
-      {/* rounded border code */}
     </>
   );
 };

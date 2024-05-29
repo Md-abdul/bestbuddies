@@ -3,10 +3,8 @@ import { Box, Image, Text, Button } from "@chakra-ui/react";
 import { AddIcon, ChatIcon } from "@chakra-ui/icons";
 import mainCode from "../assets/codeSlider.png";
 import profileImage from "../assets/profile-icons.png";
-// import jhonIcon from "../assets/jhondoe.png";
-// import { FiEdit2 } from "react-icons/fi";
 
-/* Define keyframe animation */
+
 const moveUp = keyframes`
   0% { transform: translateY(100%); opacity: 0; }
   5% { opacity: 1; }
@@ -14,7 +12,6 @@ const moveUp = keyframes`
   100% { transform: translateY(-100%); opacity: 0; }
 `;
 
-/* Animation properties */
 const animation = `${moveUp} 10s linear infinite`;
 
 const Card = () => (

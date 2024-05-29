@@ -24,18 +24,16 @@ import jhonIcon from "../assets/jhondoe.png";
 import { FiEdit2 } from "react-icons/fi";
 import { MdOutlineMail } from "react-icons/md";
 import { IoEyeOutline } from "react-icons/io5";
-
 import gridIcon1 from "../assets/g-1.png";
 import gridIcon2 from "../assets/g-2.png";
 import gridIcon3 from "../assets/g-3.png";
 import gridIcon4 from "../assets/g-4.png";
 import { MidSections } from "./MidSections";
-// import { Codesnippets } from "./Codesnippets";
 
 export const Home = () => {
   return (
     <>
-      <Box textAlign={"center"}  mt={{ base: 10, md: 10, lg: 40,sm:10 }}>
+      <Box textAlign={"center"} mt={{ base: 10, md: 10, lg: 40, sm: 10 }}>
         <Text
           fontSize={"48px"}
           fontWeight={"bold"}
@@ -228,7 +226,7 @@ export const Home = () => {
         </Box>
 
         {/* second Box */}
-        <Box display={{ base: "block", md: "none", lg: "block",sm:'none' }}>
+        <Box display={{ base: "block", md: "none", lg: "block", sm: "none" }}>
           <Box boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" borderRadius={"5%"}>
             <Box borderRadius={"8px"}>
               <Image
@@ -367,8 +365,7 @@ export const Home = () => {
         </Box>
       </Box>
 
-
-      {/* ========== profile sections 2 ==========  */}    
+      {/* ========== profile sections 2 ==========  */}
 
       <Box mt={20} px={{ base: 10, md: 20 }}>
         <Button
@@ -378,7 +375,7 @@ export const Home = () => {
           fontSize={12}
           fontFamily={"Roboto"}
           fontWeight={500}
-          _hover={{backgroundColor:'#302d2d'}}
+          _hover={{ backgroundColor: "#302d2d" }}
         >
           Key features
         </Button>
@@ -404,7 +401,6 @@ export const Home = () => {
             color={"rgba(80, 82, 86, 1)"}
             fontWeight={400}
             fontSize={"17px"}
-            // lineHeight={"30px"}
           >
             Atomize React helps you in building fully responsive websites
           </Text>
@@ -413,7 +409,6 @@ export const Home = () => {
             color={"rgba(80, 82, 86, 1)"}
             fontWeight={400}
             fontSize={"17px"}
-            // lineHeight={"30px"}
           >
             and products that match your style.
           </Text>
@@ -425,7 +420,6 @@ export const Home = () => {
           justifyContent="center"
           alignItems="center"
           mt={10}
-          
         >
           <Box
             boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
@@ -434,7 +428,7 @@ export const Home = () => {
             width="320px"
             textAlign="left"
             mx="auto"
-            mt={{ base: 10, md: 10, lg: 10,sm:10 }}
+            mt={{ base: 10, md: 10, lg: 10, sm: 10 }}
           >
             <Image src={gridIcon1} />
             <Text
@@ -464,7 +458,7 @@ export const Home = () => {
                 give decimal column size.
               </Text>
             </Box>
-            <Text mt={10} color={"rgba(2, 132, 254, 1)"} cursor={'pointer'}>
+            <Text mt={10} color={"rgba(2, 132, 254, 1)"} cursor={"pointer"}>
               See How
             </Text>
           </Box>
@@ -476,7 +470,7 @@ export const Home = () => {
             width="320px"
             textAlign="left"
             mx="auto"
-            mt={{ base: 10, md: 10, lg: 10,sm:10 }}
+            mt={{ base: 10, md: 10, lg: 10, sm: 10 }}
           >
             <Image src={gridIcon2} />
             <Text
@@ -506,7 +500,7 @@ export const Home = () => {
                 the application easily.
               </Text>
             </Box>
-            <Text mt={10} color={"rgba(2, 132, 254, 1)"} cursor={'pointer'}>
+            <Text mt={10} color={"rgba(2, 132, 254, 1)"} cursor={"pointer"}>
               See How
             </Text>
           </Box>
@@ -518,7 +512,7 @@ export const Home = () => {
             width="320px"
             textAlign="left"
             mx="auto"
-            mt={{ base: 10, md: 10, lg: 10,sm:10 }}
+            mt={{ base: 10, md: 10, lg: 10, sm: 10 }}
           >
             <Image src={gridIcon3} />
             <Text
@@ -548,7 +542,7 @@ export const Home = () => {
                 of update spacing.
               </Text>
             </Box>
-            <Text mt={10} color={"rgba(2, 132, 254, 1)"} cursor={'pointer'}>
+            <Text mt={10} color={"rgba(2, 132, 254, 1)"} cursor={"pointer"}>
               See How
             </Text>
           </Box>
@@ -560,7 +554,7 @@ export const Home = () => {
             width="320px"
             textAlign="left"
             mx="auto"
-            mt={{ base: 10, md: 10, lg: 10,sm:10 }}
+            mt={{ base: 10, md: 10, lg: 10, sm: 10 }}
           >
             <Image src={gridIcon4} />
             <Text
@@ -590,17 +584,14 @@ export const Home = () => {
                 app responsive.
               </Text>
             </Box>
-            <Text mt={10} color={"rgba(2, 132, 254, 1)"} cursor={'pointer'}>
+            <Text mt={10} color={"rgba(2, 132, 254, 1)"} cursor={"pointer"}>
               See How
             </Text>
           </Box>
         </SimpleGrid>
       </Box>
 
-      
       <MidSections />
     </>
   );
 };
-
-
