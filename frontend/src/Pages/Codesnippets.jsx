@@ -3,7 +3,7 @@ import { Box, Image, Text, Button } from "@chakra-ui/react";
 import { AddIcon, ChatIcon } from "@chakra-ui/icons";
 import mainCode from "../assets/codeSlider.png";
 import profileImage from "../assets/profile-icons.png";
-
+//
 const moveUp = keyframes`
   0% { transform: translateY(100%); opacity: 0; }
   5% { opacity: 1; }
