@@ -17,7 +17,7 @@ This project involves developing the frontend part of a web application using Re
 - Fully responsive design that works across various screen sizes and devices.
 - Smooth animations and interactivity as per the provided design.
 - Clean and well-structured code following proper naming conventions.
-- Deployed on a cloud platform for easy access.
+- Deployed on a netlify platform for easy access.
 
 ## Screenshots
 
