@@ -37,7 +37,7 @@ export const MidSections = () => {
         gap={10}
       >
         <Box
-          display={{ base: "block", md: "none", lg: "block", sm: "none" }}
+          display={{ base: "none", md: "none", lg: "block", sm: "none" }}
           justifyContent="center"
           alignItems="center"
           flexDirection="column"
@@ -586,7 +586,7 @@ export const MidSections = () => {
 
       <Box textAlign={"center"} mt={20}>
         <SimpleGrid
-          columns={{ base: 1, sm: 2, lg: 4 }}
+          columns={{ base: 2, sm: 2, lg: 4 }}
           spacing={5}
           mt={20}
           w="100%"

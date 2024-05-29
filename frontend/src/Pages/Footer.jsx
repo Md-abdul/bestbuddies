@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <>
       <Box
-      display={{ base: "block", md: "block", lg: "block",sm:'none' }}
+      display={{ base: "none", md: "block", lg: "block",sm:'none' }}
         maxW="64rem"
         marginX="auto"
         pb="2rem"
