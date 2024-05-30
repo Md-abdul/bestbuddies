@@ -53,7 +53,7 @@ export const MidSections = () => {
             alignItems="center"
             position="relative"
           >
-            {/* Circul 4 */}
+            
             <Box
               width={{ base: "250px", md: "270px" }}
               height={{ base: "250px", md: "270px" }}
@@ -82,7 +82,7 @@ export const MidSections = () => {
                 // top='-1px'
               />
 
-              {/* Circul 3 */}
+             
               <Box
                 width={{ base: "180px", md: "200px" }}
                 height={{ base: "180px", md: "200px" }}
@@ -113,7 +113,7 @@ export const MidSections = () => {
                   cursor={"pointer"}
                 />
 
-                {/* Circul 2 */}
+               
                 <Box
                   width={{ base: "90px", md: "130px" }}
                   height={{ base: "90px", md: "130px" }}
@@ -139,7 +139,7 @@ export const MidSections = () => {
             display={"flex"}
             flexDirection={"column"}
             mt={5}
-            textAlign={{ base: "left", md: "center" }}
+            textAlign={{ base: "left", md: "left", lg:'left' }}
           >
             <Text
               fontFamily={"Roboto"}
@@ -168,7 +168,7 @@ export const MidSections = () => {
 
           <SimpleGrid
             columns={{ base: 2, md: 2, lg: 3, sm: 2 }}
-            spacing={{ base: 4, md: 0, sm: 20 }}
+            spacing={{ base: 6, md: 10, lg: 20, sm: 40 }} 
             justifyContent="center"
             alignItems="center"
             mt={10}

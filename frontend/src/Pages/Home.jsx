@@ -416,19 +416,20 @@ export const Home = () => {
 
         <SimpleGrid
           columns={{ base: 1, md: 2, lg: 4 }}
-          spacing={0}
+          spacing={6}
           justifyContent="center"
           alignItems="center"
+          p={4}
           mt={10}
         >
           <Box
             boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
             p={7}
             borderRadius={"12px"}
-            width="320px"
+            width={{ base: "100%", md: "90%", lg: "100%" }}
             textAlign="left"
             mx="auto"
-            mt={{ base: 10, md: 10, lg: 10, sm: 10 }}
+            mt={10}
           >
             <Image src={gridIcon1} />
             <Text
@@ -467,10 +468,10 @@ export const Home = () => {
             boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
             p={7}
             borderRadius={"12px"}
-            width="320px"
+            width={{ base: "100%", md: "90%", lg: "100%" }} 
             textAlign="left"
             mx="auto"
-            mt={{ base: 10, md: 10, lg: 10, sm: 10 }}
+            mt={10}
           >
             <Image src={gridIcon2} />
             <Text
@@ -509,10 +510,10 @@ export const Home = () => {
             boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
             p={7}
             borderRadius={"12px"}
-            width="320px"
+            width={{ base: "100%", md: "90%", lg: "100%" }}
             textAlign="left"
             mx="auto"
-            mt={{ base: 10, md: 10, lg: 10, sm: 10 }}
+            mt={10}
           >
             <Image src={gridIcon3} />
             <Text
@@ -551,10 +552,10 @@ export const Home = () => {
             boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
             p={7}
             borderRadius={"12px"}
-            width="320px"
+            width={{ base: "100%", md: "90%", lg: "100%" }} 
             textAlign="left"
             mx="auto"
-            mt={{ base: 10, md: 10, lg: 10, sm: 10 }}
+            mt={10}
           >
             <Image src={gridIcon4} />
             <Text
